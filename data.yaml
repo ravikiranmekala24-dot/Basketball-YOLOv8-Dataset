@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['ball', 'made', 'person', 'rim', 'shoot']
+
+roboflow:
+  workspace: ravis-workspace-ohktt
+  project: basketball-w2xcw-n77zu
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/ravis-workspace-ohktt/basketball-w2xcw-n77zu/dataset/1
